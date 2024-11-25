@@ -3,6 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Sincronizar animação para as duas faixas
     faixas.forEach((faixa, index) => {
-        faixa.style.animationDelay = `${index * 5}s`; // Diferencia o tempo de início
+        faixa.style.animationDelay = `${index * 0.5}s`; // Diferencia o tempo de início
     });
 });

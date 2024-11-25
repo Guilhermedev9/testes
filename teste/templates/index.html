@@ -11,20 +11,28 @@
         <div class="faixa">
             {% for testimonial in testimonials %}
             <div class="item">
-                <img src="{{ testimonial.photo }}" alt="{{ testimonial.name }}">
-                <p><strong>{{ testimonial.name }}</strong></p>
-                <p>{{ testimonial.rating }}</p>
-                <p>{{ testimonial.comment }}</p>
+                <div id="div-img">
+                    <img src="{{ testimonial.photo }}" alt="{{ testimonial.name }}">
+                </div>
+                <div class="itens-caixa">
+                    <p><strong>{{ testimonial.name }}</strong></p>
+                    <p>{{ testimonial.rating }}</p>
+                    <p>{{ testimonial.comment }}</p>
+                </div>
             </div>
             {% endfor %}
         </div>
         <div class="faixa">
             {% for testimonial in testimonials %}
             <div class="item">
-                <img src="{{ testimonial.photo }}" alt="{{ testimonial.name }}">
-                <p><strong>{{ testimonial.name }}</strong></p>
-                <p>{{ testimonial.rating }}</p>
-                <p>{{ testimonial.comment }}</p>
+                <div id="div-img">
+                    <img src="{{ testimonial.photo }}" alt="{{ testimonial.name }}">
+                </div> 
+                <div class="itens-caixa">
+                    <p><strong>{{ testimonial.name }}</strong></p>
+                    <p>{{ testimonial.rating }}</p>
+                    <p>{{ testimonial.comment }}</p>
+                </div>
             </div>
             {% endfor %}
         </div>
